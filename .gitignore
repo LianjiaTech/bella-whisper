@@ -1,0 +1,67 @@
+# 忽略操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# 忽略编辑器目录和文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略日志和数据库文件
+*.log
+*.sql
+*.sqlite
+
+# 忽略依赖目录
+node_modules/
+bower_components/
+
+# 忽略编译生成的文件
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 忽略测试相关文件
+coverage/
+.nyc_output/
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 忽略包管理器文件
+package-lock.json
+yarn.lock
+
+# 忽略Python相关
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# 忽略Ruby相关
+/.bundle/
+/.yardoc
+/_yardoc/
+/Gemfile.lock
+
+# 忽略Java相关
+/target/
+
+# 忽略临时文件
+*.tmp
+*.bak
+*.swp
+*~
